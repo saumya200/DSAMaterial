@@ -1,0 +1,112 @@
+20 Essential coding patterns :
+
+1. Sliding Window : 
+
+---> Usage : This algorithmic technique is used when we need to handle the input data in a specific window size .
+---> DS Involved : Array, String, HashTable
+---> Sample problems :
+     -> Longest Substring with 'K' Distinct Characters
+     -> Fruits into Baskets
+
+
+2. Two Pointers :
+
+---> Usage : This technique uses two pointers to iterate input data. Generally, both pointers move in the opposite direction at a
+             constant interval.
+---> DS Involved : Array, String, LinkedList
+---> Sample problems : 
+     -> Squaring a Sorted Array
+     -> Remove Duplicates from Sorted Array
+     -> Dutch National Flag problem
+     -> Minimum Window Sorted
+
+
+3. Fast and Slow Pointers:
+
+---> Usage : Also known as Hare and Tortoise algorithm. This technique uses two pointers that traverse the input data at different
+            speeds.
+---> DS Involved : Array, String, LinkedList
+---> Sample Problems: 
+     -> Middle of the LinkedList
+     -> Happy Number
+     -> Cycle in a Circular Array
+
+
+4. Merge Intervals :
+
+---> Usage : This technique is used to deal with overlapping Intervals
+---> DS Involved : Array, List, Heap
+---> Sample Problems :
+     -> Conflicting Appointments
+     -> Minimum Meeting Rooms
+
+
+
+5. Cyclic Sort :
+
+---> Usage : Use this technique to solve array problems where the input data lies within a fixed range.
+---> DS Involved : Array
+---> Sample Problems : 
+     -> Find all Missing Numbers
+     -> Find all Duplicate Numbers
+     -> Find the first K Missing Positive Numbers.
+
+6. Islands(Matrix Traversal) :
+
+---> Usage : This pattern describes all the efficient ways of traversing a matrix (or 2D array).
+---> DS Involved : Matrix, Queue
+---> Sample problems : 
+     -> No. of Islands, 
+     -> Flood Fill, 
+     -> Cycle in a Matrix
+
+
+7. In-place Reversal of a LinkedList
+
+8. Breadth-First Search
+
+9. Depth First Search
+
+10. Two Heaps : 
+
+---> Usage : In many problems, we are given a set of elements that can be divided into two parts. We are interested in knowing 
+             the smallest element in one part and biggest element in the other part. As the name suggests, this technique uses 
+             a Min-Heap to find the smallest element and a Max-Heap to find the biggest element.
+---> DS involved : Heap, Array
+---> Sample Problems:
+     -> Find the Median of a Number Stream
+     -> Next Intervals
+
+
+11. Subsets : 
+
+---> Usage : when the problem asks to deal with permutations or combinations of a set of elements.
+---> DS Involved : Queue, Array, String
+---> Sample Problems: 
+     -> String permutations by changing case
+     -> Unique Generalized Abbreviations
+
+
+12. Modified Binary Search : 
+
+---> Usage : Use this technique to search a sorted set of elements efficiently.
+---> DS Involved : Array
+---> Sample Problems :
+     -> Ceiling of a Number
+     -> Bitonic Array Maximum
+
+13. Bitwise XOR :
+
+14. Top K elements
+
+15. K-way Merge
+
+16. Topological Sort
+
+17. 0/1 Knapsack
+
+18. Fibonacci Numbers
+
+19. Palindromic Subsequence
+
+20. Longest Common Substring
