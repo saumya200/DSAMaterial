@@ -1,0 +1,22 @@
+-----> Three important points for time complexity(Big - O Notation) must and should every developer should remember are :
+1. Always consider TC , in worst case scenario.
+2. Avoid constants
+3. Avoid lower values.
+
+---------> Big - O Notation : Worst Case scenario [Upper Bound]
+---------> Theta - Notation : Average Case scenario
+----------> Omega - Notation : Best Case scenario [Lower Bound]
+
+
+-----------> Space complexity:
+
+Auxiliary space (space that you take to store the problem) + input space(the space that you take to store the input)
+
+Eg : int a , b;
+
+     int c  = a+b;
+
+     a , b ----> input space
+     c ------> auxiliary space (extra space taken in the memory and hence it is called auxiliary space)
+
+     Here SC : O(3) ;

@@ -3,7 +3,6 @@
 
 
 /*Java Switch Case statement
-Difficulty: BasicAccuracy: 48.02%Submissions: 83K+Points: 1Average Time: 10m
 
 Given an integer choice denoting the choice of the user and a list containing the single value R or two values L and B depending on the choice.
 If the user's choice is 1, calculate the area of the circle having the given radius(R).  
