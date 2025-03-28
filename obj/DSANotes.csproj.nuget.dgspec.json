@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/saumya/REACT/DSA prep and notes/DSANotes/DSANotes.csproj": {}
+    "/home/saumya/DSA prep and notes/DSANotes/DSANotes.csproj": {}
   },
   "projects": {
-    "/home/saumya/REACT/DSA prep and notes/DSANotes/DSANotes.csproj": {
+    "/home/saumya/DSA prep and notes/DSANotes/DSANotes.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/saumya/REACT/DSA prep and notes/DSANotes/DSANotes.csproj",
+        "projectUniqueName": "/home/saumya/DSA prep and notes/DSANotes/DSANotes.csproj",
         "projectName": "DSANotes",
-        "projectPath": "/home/saumya/REACT/DSA prep and notes/DSANotes/DSANotes.csproj",
+        "projectPath": "/home/saumya/DSA prep and notes/DSANotes/DSANotes.csproj",
         "packagesPath": "/home/saumya/.nuget/packages/",
-        "outputPath": "/home/saumya/REACT/DSA prep and notes/DSANotes/obj/",
+        "outputPath": "/home/saumya/DSA prep and notes/DSANotes/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/saumya/.nuget/NuGet/NuGet.Config"
@@ -58,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.406/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.407/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
