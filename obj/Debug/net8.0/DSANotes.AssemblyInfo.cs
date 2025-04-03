@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DSANotes")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0674c018566419d32db1091772520bd1417d4423")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+56cffebdadaa1495872e8584491c9406d7ae0829")]
 [assembly: System.Reflection.AssemblyProductAttribute("DSANotes")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DSANotes")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

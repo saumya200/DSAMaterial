@@ -1,0 +1,39 @@
+ Problem statement
+
+Sam is planting trees on the upper half region (separated by the left diagonal) of the square shared field.
+
+For every value of ‘N’, print the field if the trees are represented by ‘*’.
+Example:
+
+Input: ‘N’ = 3
+
+Output: 
+* * *
+* *
+*
+=============================================================================================================================
+
+// Online C# Editor for free
+// Write, Edit and Run your C# code using C# Online Compiler
+
+using System;
+
+public class HelloWorld
+{
+    public static void Main(string[] args)
+    {
+        int n;
+        Console.WriteLine("Enter number of elements: ");
+        n = int.Parse(Console.ReadLine());
+        
+        for(int i=0;i<n;i++)
+        {
+            for(int j=i; j<n;j++)
+            {
+            
+        Console.Write("* ");
+            }
+            Console.WriteLine();
+        }
+    }
+}

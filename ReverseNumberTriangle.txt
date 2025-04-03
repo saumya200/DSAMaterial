@@ -1,0 +1,39 @@
+ Problem statement
+
+Aryan and his friends are very fond of the pattern. For a given integer ‘N’, they want to make the Reverse N-Number Triangle.
+Example:
+
+Input: ‘N’ = 3
+
+Output: 
+
+1 2 3
+1 2
+1
+
+====================================================SOLUTION======================================================================
+
+// Online C# Editor for free
+// Write, Edit and Run your C# code using C# Online Compiler
+
+using System;
+
+public class HelloWorld
+{
+    public static void Main(string[] args)
+    {
+        int n;
+        Console.WriteLine("Enter number of elements: ");
+        n = int.Parse(Console.ReadLine());
+        
+        for(int i=0;i<=n;i++)
+        {
+            for(int j=1; j<=(n-i);j++)
+            {
+            
+        Console.Write(j+" ");
+            }
+            Console.WriteLine();
+        }
+    }
+}
