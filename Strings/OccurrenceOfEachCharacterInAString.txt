@@ -1,0 +1,36 @@
+// Online C# Editor for free
+// Write, Edit and Run your C# code using C# Online Compiler
+
+using System;
+using System.Collections.Generic;
+
+public class HelloWorld
+{
+    public static void Main(string[] args)
+    {
+        string str;
+        Console.WriteLine("input:");
+        str = Console.ReadLine();
+        
+        Dictionary<char, int> charCount = new Dictionary<char, int>();
+        
+        foreach(var num in str)
+        {
+            if(num != ' ')
+            {
+                if(!charCount.ContainsKey(num))
+                {
+                    charCount.Add(num, 1);
+                }
+                else
+                {
+                    charCount[num]++;
+                }
+            }
+        }
+        foreach(var num in charCount)
+        {
+            Console.WriteLine("{0} - {1}", num.Key, num.Value);
+        }
+    }
+}

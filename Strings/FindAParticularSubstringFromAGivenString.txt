@@ -1,0 +1,18 @@
+// Online C# Editor for free
+// Write, Edit and Run your C# code using C# Online Compiler
+
+using System;
+using System.Text;
+
+public class HelloWorld
+{
+    public static void Main(string[] args)
+    {
+        string str;
+        Console.WriteLine("input: ");
+        str = Console.ReadLine();
+         
+         string result = str.Substring(2, 2);
+         Console.WriteLine(result);
+    }
+}
