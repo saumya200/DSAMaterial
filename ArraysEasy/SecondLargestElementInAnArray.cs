@@ -27,3 +27,45 @@ class Solution
         return secondMax;
     }
 };
+
+
+// ================================================
+// Online C# Editor for free
+// Write, Edit and Run your C# code using C# Online Compiler
+
+
+public class HelloWorld
+{
+    public static void Main(string[] args)
+    {
+        int[] arr = new int[] { 1, 5, 7, 9, 8 };
+        int largest = int.MinValue;
+        int secondLargest = int.MinValue;
+
+        if (arr == null || arr.Length < 2)
+        {
+            Console.WriteLine("ArgumentException");
+        }
+
+        for (int i = 0; i < arr.Length; i++)
+        {
+            if (arr[i] > largest)
+            {
+                secondLargest = largest;
+                largest = arr[i];
+
+            }
+            else if (arr[i] > secondLargest && arr[i] < largest)
+            {
+                secondLargest = arr[i];
+            }
+        }
+        if (secondLargest == int.MinValue)
+        {
+            Console.WriteLine("InvalidExceptionOperation");
+        }
+        Console.WriteLine(secondLargest);
+
+
+    }
+}
